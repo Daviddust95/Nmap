@@ -1,5 +1,8 @@
 # NMAP
 
+(Apenas para fins de educação)
+
+Este projeto é criado apenas para fins educacionais.
 Nesse repositório vou abordar  alguns comandos do Nmap.
 O Nmap é uma ferramenta muito valiosa para um ataque, pois a mesma possibilita você de conhecer o terreno que você está atacando, quais os sistemas operacionais de cada Host e quais vulnerabilidades os mesmos possuem.
 Depois de "varrer" a infraestrutura do defensor você tem que arquitetar quais serão os alvos, e quais os ataques que podem ser desenvolvidos para esses alvos. 
@@ -20,3 +23,4 @@ Esse comando serve para identificar o SO do host e ajuda identificar quais porta
 
 nmap --script "vuln" -p 21,22,23,80,139,445  192.168.0.1
 Nesse comando será executado um script para encontrar uma vulnerabilidade para aquele host, a vulnerabilidade sera exibida como CVE, normalmente é composta de oito digitos separados.
+
