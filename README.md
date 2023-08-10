@@ -1,6 +1,7 @@
 # NMAP
 
 (Apenas para fins de educação) Este projeto é criado apenas para fins educacionais. 
+
 Nesse repositório vou abordar  alguns comandos do Nmap.
 O Nmap é uma ferramenta muito valiosa para um ataque, pois a mesma possibilita você de conhecer o terreno que você está atacando, quais os sistemas operacionais de cada Host e quais vulnerabilidades os mesmos possuem.
 Depois de "varrer" a infraestrutura do defensor você tem que arquitetar quais serão os alvos, e quais os ataques que podem ser desenvolvidos para esses alvos. 
