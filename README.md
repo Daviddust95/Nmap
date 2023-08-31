@@ -14,7 +14,7 @@ puxando do 192.168.0.1 ao 192.168.0.254 e os que estiverem ativos ele exibirar u
 nmap -sV -p 21,22,23,80,139,445, 192.168.0.1 
 Esse comando descobre qual é o fabricante do dispositivo e quais portas estão abertas e seus respectivos serviços. 
 
-nmap -p 0-80000 + ip 
+nmap -p 0-65535 + ip 
 Esse comando escaneia a faixa de portas em um ip, dns, ou url que você determinar
 
 nmap -Pn 192.168.0.1 -top-ports=100
