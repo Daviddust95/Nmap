@@ -5,7 +5,7 @@ Este repositório é criado estritamente para fins educacionais.
 ## Introdução
 <justify>
 Nesse repositório vou abordar alguns comandos do Nmap. O Nmap é uma ferramenta muito valiosa para um ataque, pois a mesma possibilita você de conhecer o terreno que você está atacando, quais os sistemas operacionais de cada Host e quais vulnerabilidades os mesmos possuem. Depois de "varrer" a infraestrutura do defensor você tem que arquitetar quais serão os alvos, e quais os ataques que podem ser desenvolvidos para esses alvos.
-<justify>
+</justify>
   
 ## Comandos Básicos do Nmap
 
@@ -38,3 +38,19 @@ Esse comando serve para identificar o SO do host e ajuda identificar quais porta
 Nesse comando será executado um script para encontrar uma vulnerabilidade para aquele host, a vulnerabilidade sera exibida como CVE, normalmente é composta de oito digitos separados.
 - ```bash
     nmap --script "vuln" -p 21,22,23,80,139,445 192.168.0.1
+
+## Aviso
+<justify>
+Este repositório é apenas para fins educacionais. Não promovemos atividades ilegais ou antiéticas. Certifique-se de obedecer às leis locais e diretrizes éticas ao usar o Nmap e outras ferramentas de segurança.
+Lembre-se de usar esses comandos de maneira responsável e ética. A segurança cibernética é um campo sério e deve ser usada para fins legítimos, como testar a segurança de seus próprios sistemas ou com permissão legal.
+Sinta-se à vontade para explorar os comandos acima e aprofundar seu conhecimento em testes de penetração com o Nmap. Lembre-se de usá-los de maneira responsável e respeitando a privacidade e a segurança de terceiros.
+<justify>
+
+## Contato
+Se você tiver alguma dúvida, comentário ou feedback, sinta-se à vontade para entrar em contato:
+
+- **Email:** alissondaviddev@gmail.com
+- **LinkedIn:** [alisson-melo95](https://www.linkedin.com/in/alisson-melo95/) 
+- **Site Pessoal:** [Portifólio](https://alissondev.tech)
+- **GitHub:** [@Daviddust95](https://github.com/Daviddust95)
+
