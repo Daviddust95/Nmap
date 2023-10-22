@@ -9,8 +9,6 @@ Nesse repositório vou abordar alguns comandos do Nmap. O Nmap é uma ferramenta
   
 ## Comandos Básicos do Nmap
 
-Aqui estão alguns comandos essenciais do Nmap para ajudá-lo a começar:
-
 ### Verificação de Hosts Ativos
 
 Para identificar hosts ativos em uma rede:
