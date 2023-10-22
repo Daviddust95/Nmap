@@ -1,4 +1,4 @@
-# Projeto de Pentesting com Nmap - Guia Educacional
+# Pentesting com Nmap - Guia Educacional
 
 Este repositório é criado estritamente para fins educacionais.
 
