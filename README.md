@@ -34,7 +34,6 @@ Nesse repositório vou abordar alguns comandos do Nmap. O Nmap é uma ferramenta
 ### 1. Abra o terminal no seu sistema openSUSE.
 
 ### 2. Use o comando zypper para instalar o Nmap:
-## Comandos Básicos do Nmap
 - ```bash
   sudo zypper install nmap
 ## No Arch Linux:
@@ -43,26 +42,24 @@ Nesse repositório vou abordar alguns comandos do Nmap. O Nmap é uma ferramenta
 ### 2. Use o pacman para instalar o Nmap:
 - ```bash
   sudo pacman -S nmap
-## 2. Verificação de Hosts Ativos
+## 2. Comandos Básicos do Nmap
 
-**Para identificar hosts ativos em uma rede:**
-
-**Este comando verificará quais hosts estão ativos na rede no intervalo de 192.168.0.1 a 192.168.0.254, e os que estiverem ativos ele exibirar uma mensagem "is alive" (está vivo).**
+2.1 **Este comando verificará quais hosts estão ativos na rede no intervalo de 192.168.0.1 a 192.168.0.254, e os que estiverem ativos ele exibirar uma mensagem "is alive" (está vivo).**
 -  ```bash
     fping -g 192.168.0.100/24 2>/dev/null | grep "is alive"
-**Esse comando descobre qual é o fabricante do dispositivo e quais portas estão abertas e seus respectivos serviços.**
+2.2 **Esse comando descobre qual é o fabricante do dispositivo e quais portas estão abertas e seus respectivos serviços.**
 - ```bash
     nmap -sV -p 21,22,23,80,139,445, 192.168.0.1
-**Esse comando escaneia a faixa de portas em um ip, dns, ou url que você determinar.**
+2.3 **Esse comando escaneia a faixa de portas em um ip, dns, ou url que você determinar.**
 - ```bash
     nmap -p 0-65535
-**Esse comando identifca quais as principais portas baseada nas 100 mais utilizadas e vai retornar se estão abertas ou fechadas.**
+2.4 **Esse comando identifca quais as principais portas baseada nas 100 mais utilizadas e vai retornar se estão abertas ou fechadas.**
 - ```bash
     nmap -Pn 192.168.0.1 -top-ports=100
-**Esse comando serve para identificar o SO do host e ajuda identificar quais portas estão abertas nele também.**
+2.5 **Esse comando serve para identificar o SO do host e ajuda identificar quais portas estão abertas nele também.**
 - ```bash
     nmap -sV -p 21,22,23,80,139,445, -O 192.168.0.1
-**Nesse comando será executado um script para encontrar uma vulnerabilidade para aquele host, a vulnerabilidade sera exibida como CVE, normalmente é composta de oito digitos separados.**
+2.6 **Nesse comando será executado um script para encontrar uma vulnerabilidade para aquele host, a vulnerabilidade sera exibida como CVE, normalmente é composta de oito digitos separados.**
 - ```bash
     nmap --script "vuln" -p 21,22,23,80,139,445 192.168.0.1
 ## Aviso
