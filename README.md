@@ -1,4 +1,5 @@
 # Pentesting com Nmap - Guia Educacional
+![Concluído](https://img.shields.io/badge/Conclu%C3%ADdo-Sim-brightgreen.svg)
 
 Este repositório é criado estritamente para fins educacionais.
 
